@@ -151,7 +151,7 @@
 
 		section#third .kenapasicepat {
 			position: absolute;
-				width: 695px;
+				width: 50vw;
 				height: 91px;
 				left: 43vw;
 				margin-top: 4vh;
@@ -167,7 +167,7 @@
 
 		section#third .kenapasicepatbio {
 			position: absolute;
-				width: 798px;
+				width: 50vw;
 				height: 91px;
 				left: 23vw;
 				margin-top: -3vh;
@@ -189,7 +189,7 @@
 
 		section#third .reasonscontainer {
 			position: absolute;
-			width: 868px;
+			width: 70%;
 			height: 410px;
 			left: 23vw;
 			top: 105px;
@@ -849,7 +849,7 @@
 
 
 
-	@media (max-width: 700px) {
+	@media (max-width: 500px) {
 
 		section {
 
@@ -1136,22 +1136,23 @@
 
 		section#fifth .textcontainer {
 			left: 20vw;
-			width: 30%;
+			width: 20vw;
 		}
 
 		section#fifth .textcontainer2 {
 			left: 50vw;
-			width: 70%;
+			width: 50%;
 		}
 
 		section#fifth .textcontainer3 {
 			left: 75vw;
+			width: 20%;
 		}
 
 		section#fifth .textcontainer4 {
 			left: 20vw;
 			top: 250px;
-			width: 100%;
+			width: 60%;
 		}
 
 		section#fifth .googleplay {
