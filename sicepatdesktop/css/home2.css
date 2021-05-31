@@ -28,6 +28,16 @@
 
 		}
 
+		element.style {
+			overflow-x: hidden;
+			width: 100vw !important;
+		}
+
+		body {
+			display: block;
+			padding: 0;
+		}
+
 		section {
 			width: 100%;
 			height: 324px;
