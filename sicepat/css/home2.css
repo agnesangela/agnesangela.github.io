@@ -555,7 +555,7 @@
 			display: block;
 			float: left;
 			left: 5vw;
-			top: 2vh;
+			top: 3vh;
 		}
 
 		nav section .menus_container {
@@ -628,18 +628,26 @@
 
 		nav section .logo_container {
 			width: 50%;
-			margin-left: 5vw;
+			margin-left: 3vw;
 		}
 
 		nav section .icon_container {
 			width: 30%;
-			margin-right: -4vw;
+			margin-right: 0vw;
+		}
+
+		nav section .icon_container .searchicon {
+			right: 4vw;
+		}
+
+		nav section .icon_container .contacticon {
+			right: 8vw;
 		}
 
 		/*section 2*/
 
 		section#second .livechatsupport {
-			left: -45vw;
+			left: -65vw;
 			top: -50px;
 			width: 100vw;
 		}
@@ -653,7 +661,7 @@
 			display: block;
 			width: 370px;
 			height: 337px;
-			left: 12vw;
+			left: 4vw;
 			top: -155px;
 			background-image: url(../img/cs.png);
 			position: relative;
@@ -755,7 +763,7 @@
 			width: 108px;
 			height: 108px;
 			background-image: url(../img/calcc.png);
-			left: 77vw;
+			left: 72vw;
 			z-index: 4;
 			float: right;
    			margin-top: -112px;
