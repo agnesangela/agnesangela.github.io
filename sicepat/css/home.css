@@ -873,7 +873,7 @@
 			display: block;
 			float: left;
 			left: 5vw;
-			top: 2vh;
+			top: 3vh;
 		}
 
 		nav section .menus_container {
@@ -948,7 +948,7 @@
 
 		nav section .logo_container {
 			width: 50%;
-			margin-left: 5vw;
+			margin-left: 3vw;
 		}
 
 		nav section .icon_container {
@@ -957,11 +957,11 @@
 		}
 
 		nav section .icon_container .searchicon {
-			right: 6vw;
+			right: 4vw;
 		}
 
 		nav section .icon_container .contacticon {
-			right: 12vw;
+			right: 8vw;
 		}
 
 		/*section 1*/
@@ -971,9 +971,10 @@
 		}
 
 		section#first .indahnyaramadhan {
-			width: 90vw;
+			width: 100%;
 			background-repeat: no-repeat;
-			margin-left: -27vw;
+			left: 0vw;
+			position: absolute;
 		}
 
 		/*section 2*/
@@ -984,7 +985,7 @@
 		}
 
 		section#second .buttontopcontainer .buttonlacak {
-			left: 25vw;
+			left: 20vw;
 		}
 
 		section#second .buttontopcontainer .buttoncek {
@@ -1021,17 +1022,17 @@
 
 		section#second .character3 {
 			top: 135px;
-			left: 9.5vw;
+			left: 9vw;
 		}
 
 		section#second .character2 {
 			top: 75px;
-			left: 9.5vw;
+			left: 9vw;
 		}
 
 		section#second .character {
 			top: 15px;
-			left: 9.5vw;
+			left: 9vw;
 		}
 
 		section#second .tambahresi {
@@ -1055,7 +1056,8 @@
 		}
 
 		section#third .kenapasicepat {
-			left: 30vw;
+			left: 28vw;
+			width: 100vw;
 		}
 
 		section#third .kenapasicepatbio {
@@ -1065,7 +1067,7 @@
 		}
 
 		section#third .reasonscontainer .reason_1{
-			left: 1vw;
+			left: -4vw;
 			top: 25px;
 		}
 
@@ -1085,7 +1087,7 @@
 		}
 
 		section#third .buttonright {
-			left: 280px;
+			left: 57vw;
 			margin-top: 10px;
 			float: left;
 		}
@@ -1100,7 +1102,8 @@
 		}
 
 		section#fourth .containergabung .gabungbutton {
-			right: 20px;
+			left: 2vw;
+			float: left;
 			top: 140px;
 			size: -10%;
 		}
@@ -1131,7 +1134,7 @@
 			width: 393px;
 			height: 299px;
 			bottom: 30px;
-			left: 12vw;
+			left: 3vw;
 			background-image: url(../img/partners2.png);
 			z-index: 1;
 			display: block;
@@ -1204,7 +1207,7 @@
 			width: 108px;
 			height: 108px;
 			background-image: url(../img/calcc.png);
-			left: 77vw;
+			left: 72vw;
 			z-index: 4;
 			float: right;
    			margin-top: -112px;
