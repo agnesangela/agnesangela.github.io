@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-@import 'typography.css';
 
 
 * {
@@ -21,13 +20,15 @@
 
 		}
 
-		main {
-			width: 100vw;
-			margin-top: 50px;
-			z-index: 1;
-
+		element.style {
+			overflow-x: hidden;
+			width: 100vw !important;
 		}
 
+		body {
+			display: block;
+			padding: 0;
+		}
 		section {
 			width: 100%;
 			height: 324px;
@@ -554,7 +555,7 @@
 			display: block;
 			float: left;
 			left: 5vw;
-			top: 3vh;
+			top: 2vh;
 		}
 
 		nav section .menus_container {
