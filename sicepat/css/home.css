@@ -19,6 +19,16 @@
 
 		}
 
+		element.style {
+			overflow-x: hidden;
+			width: 100vw !important;
+		}
+
+		body {
+			display: block;
+			padding: 0;
+		}
+
 		main {
 			width: 100vw;
 			margin-top: 50px;
@@ -270,8 +280,8 @@
 		}
 
 		section#fourth .footerimage {
-			position: absolute;
-			width: 1440px;
+			position: relative;
+			width: 100vw;
 			height: 216px;
 			top: 440px;
 			background-image: url(../img/footerimage.png);
@@ -280,12 +290,13 @@
 
 		section#fourth .containerpartners {
 			position: absolute;
-			width: 1036px;
+			width: 80vw;
 			height: 238px;
 			bottom: 58px;
-			left: 195px;
+			left: 14vw;
 			background-image: url(../img/partners.png);
 			z-index: 1;
+			background-repeat: no-repeat;
 
 		}
 
@@ -383,7 +394,7 @@
 		}
 
 		section#fifth .textcontainer5 {
-			width: 30vw;
+			width: 20vw;
 			height: 123px;
 			position: absolute;
 			top: 40px;
@@ -428,7 +439,7 @@
 		}
 
 		section#fifth .textcontainer5 .googleplay {
-			width: 130px;
+			width: 9vw;
 			height: 43px;
 			position: absolute;
 			top: 30px;
@@ -438,7 +449,7 @@
 		}
 
 		section#fifth .textcontainer5 .appstore {
-			width: 130px;
+			width: 9vw;
 			height: 43px;
 			position: absolute;
 			top: 32px;
@@ -862,7 +873,7 @@
 			display: block;
 			float: left;
 			left: 5vw;
-			top: 3vh;
+			top: 2vh;
 		}
 
 		nav section .menus_container {
@@ -942,7 +953,15 @@
 
 		nav section .icon_container {
 			width: 30%;
-			margin-right: -4vw;
+			margin-right: 0vw;
+		}
+
+		nav section .icon_container .searchicon {
+			right: 6vw;
+		}
+
+		nav section .icon_container .contacticon {
+			right: 12vw;
 		}
 
 		/*section 1*/
@@ -960,7 +979,7 @@
 		/*section 2*/
 
 		section#second .buttontopcontainer {
-			width: 100%;
+			width: 70%;
 			margin-left: 8px;
 		}
 
