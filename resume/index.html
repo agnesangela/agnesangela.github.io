@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AGNES ANGELA</title>
+	<link rel="stylesheet" type="text/css" href="assets/global.css">
+	<style type="text/css" href="assets/global.css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			position: static;
+			margin-top: 74px;
+			margin-left: 150px;
+			margin-right: 400px;
+			margin-bottom: 10px;
+		}
+
+		.Heading {
+			padding-left: 200px;
+			font-family: "Poppins", sans-serif;
+
+		}
+
+		.bio {
+			padding-left: 200px;
+			font-family: "Poppins", sans-serif;
+			color: rgba(0,0,0,0.4);
+			font-size: 15px;
+			margin-top: -5px;
+
+		}
+
+		.paragraph {
+			margin-right: 200px;
+			margin-left: 200px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-family: "Poppins", sans-serif;
+			font-size: 14px;
+
+
+		}
+
+		.paragraph2 {
+			margin-right: 200px;
+			margin-left: 200px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-family: "Poppins", sans-serif;
+			font-size: 14px;
+			color: gray;
+			float: left;
+
+
+		}
+
+		.image {
+			position: absolute;
+			top: 0px;
+			margin-top: 40px;
+			margin-left: 800px;
+			object-fit:  fill;
+			-o-object-fit: fill;
+			float: right;
+
+		}
+
+		.block {
+			width: auto;
+			height: 250px;
+			margin-bottom: 0px;
+			background-color: rgba(255,34,51,0.27);
+			color: #927d7d;
+
+		}
+
+		.container.w-container {
+			padding-left: 0px
+
+		}
+
+		.subheader {
+			
+			margin-right: 200px;
+			margin-left: 250px;
+			margin-right: 20px;
+			margin-top: 110px;
+			margin-bottom: 10px;
+			font-family: "Poppins", sans-serif;
+			font-size: 20px;
+			float: left;
+			color: white;
+			letter-spacing: 1px;
+			text-align: center;
+
+		}
+
+		.item {
+		    position: relative;
+		    float: left;
+		    margin-top: 50px;
+		}
+
+		.item p {
+		    text-align:center;
+		    margin-top: 15px;
+		    position: absolute;
+		    line-height: 125px;
+		    width: 100%;
+		    font-family: "Poppins", sans-serif;
+			font-size: 14px;
+			color: white;
+
+		}
+
+		svg {
+		   -webkit-transform: rotate(-90deg);
+		    transform: rotate(-90deg);
+		}
+
+		.circle_animation {
+		  stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+		  stroke-dashoffset: 440;
+		}
+
+		.html .circle_animation {
+		    -webkit-animation: html 1s ease-out forwards;
+		    animation: html 1s ease-out forwards;
+		}
+
+		.css .circle_animation {
+		    -webkit-animation: css 1s ease-out forwards;
+		    animation: css 1s ease-out forwards;
+		}
+
+		.html2 .circle_animation {
+		    -webkit-animation: html 1s ease-out forwards;
+		    animation: html 1s ease-out forwards;
+		}
+
+		@-webkit-keyframes html {
+		  to {
+		    stroke-dashoffset: 5; /* 50% would be 220 (half the initial value specified above) */
+		  }
+		}
+
+		@keyframes html {
+		  to {
+		    stroke-dashoffset: 5;
+		  }
+		}
+
+		@-webkit-keyframes css {
+		  to {
+		    stroke-dashoffset: 160;
+		  }
+		}
+
+		@keyframes css {
+		  to {
+		    stroke-dashoffset: 160;
+		  }
+		}
+
+		@-webkit-keyframes html {
+		  to {
+		    stroke-dashoffset: 5;
+		  }
+		}
+
+		@keyframes html {
+		  to {
+		    stroke-dashoffset: 5;
+		  }
+		}
+
+		.block2 {
+			width: 250px;
+			height: 350px;
+			margin-top: 40px;
+			margin-left: 330px;
+			border-style: solid;
+			border-width: 1.5px;
+			border-color: #6BA292;
+			border-radius: 15px;
+			background-color: 
+			background-clip: border-box;
+		}
+
+		.block3 {
+			width: 250px;
+			height: 350px;
+			margin-top: -354px;
+			margin-left: 595px;
+			border-style: solid;
+			border-width: 1.5px;
+			border-color: #6BA292;
+			border-radius: 15px;
+			background-color: 
+			background-clip: border-box;
+		}
+
+		.block4 {
+			width: 250px;
+			height: 350px;
+			margin-top: -354px;
+			margin-left: 860px;
+			border-style: solid;
+			border-width: 1.5px;
+			border-color: #6BA292;
+			border-radius: 15px;
+			background-color: 
+			background-clip: border-box;
+		}
+
+		.paragraph4 {
+			text-align: center;
+			font-family: "Poppins", sans-serif;
+			font-size: 13px;
+			color: gray;
+
+		}
+
+		.paragraph3 {
+			text-align: center;
+			font-family: "Poppins", sans-serif;
+			font-size: 15px;
+			color: rgba(0,0,0,0.8);
+
+
+		}
+
+		.subsubheader {
+			text-align: center;
+			font-family: "Poppins", sans-serif;
+			font-size: 20px;
+			color: #6BA292;
+			letter-spacing: 1px;
+		}
+
+		.footer {
+			height: 50px;
+		}
+
+
+
+	</style>
+</head>
+
+
+
+<body>
+	<div class="container w-container">
+		<h1 class="Heading"> Hi! My name is Agnes</h1>
+		<p class="bio">Graphic Designer</p>
+			<p class="paragraph"> My name is Agnes Angela, i was born on 24 December 2001. I am currently studying Visual Communication Design in Raffles Institute of Design Jakarta. I am a graphic designer based in West Jakarta. </p>
+			<p class="paragraph2">agnesangelaaaa@gmail.com  </p>
+	</div>
+
+	<div class="container w-container"> <img src="images/memoji.jpg" width="200" class="image"> </div>
+	
+	<div class="container w-container">	
+		<h2 class="subheader">I Speak</h2>
+	</div>
+
+		<div class="item html">
+	    <p>Bahasa</p>
+	    <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+	     <g>
+	      
+	      <circle r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#f2f2f2" fill="none"/>
+	      <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#dd614a" fill="none"/>
+	     </g>
+	    </svg>
+	</div>
+
+		<div class="item css">
+		    <p>Mandarin</p>
+		    <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+		     <g>
+		      <title>Layer 1</title>
+		      <circle r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#f2f2f2" fill="none"/>
+		      <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#ff9b71" fill="none"/>
+		     </g>
+		    </svg>
+		</div>
+
+		<div class="item html2">
+	    <p>English</p>
+	    <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+	     <g>
+	      <title>Layer 1</title>
+	      <circle r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#f2f2f2" fill="none"/>
+	      <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#ffdc7c" fill="none"/>
+	     </g>
+	    </svg>
+	</div>
+
+
+	<div class="block"></div>
+
+	<div class="block2">
+		<h2 class="subsubheader"><br><br>SKILLS</h2>
+		<p class="paragraph3">
+			<br><br>Photoshop
+			<br>Illustrator
+			<br>Premiere Pro
+			<br>Figma
+			<br>Photography
+			<br>InDesign<br></p>
+	</div>
+
+	<div class="block3">
+		<h2 class="subsubheader"><br><br>EXPERIENCE</h2>
+		<p class="paragraph3">
+			<br><br>Freelancer<br></p>
+		<p class="paragraph4">2018 - Current</p>
+			<p class="paragraph3"><br>Graphic Design Intern<br>ERA FIESTA PROPERTY
+			<br>
+			<p class="paragraph4">2021 - Current</p>
+		</p>
+	</div>
+
+	<div class="block4">
+		<h2 class="subsubheader"><br><br>EDUCATION</h2>
+		<p class="paragraph3">
+			<br><br>
+			Kanaan Global School
+			<br></p>
+
+		<p class="paragraph4">2014-2017</p>
+			<br>
+		<p class="paragraph3">St. Laurensia School</p>
+		<p class="paragraph4">2017-2020</p>
+		<br>
+		<p class="paragraph3">Raffles Design Institute</p>
+		<p class="paragraph4">2020-Current</p>
+	</div>
+
+
+
+</body>
+<footer>
+	<div class="footer"></div>
+</footer>
+</html>

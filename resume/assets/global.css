@@ -1,0 +1,35 @@
+* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			position: static;
+			margin-top: 74px;
+		}
+
+		.heading {
+			padding-left: 100px;
+			font-family: "Poppins", sans-serif
+		}
+
+		.paragraph {
+			margin-right: 400px;
+
+		}
+
+		.image {
+			margin-top: -225px;
+			margin-left: 600px;
+			object-fit:  fill;
+
+		}
+
+		.block {
+			width: auto;
+			height: 200px;
+			margin-bottom: 0px;
+			background-color: rgba(255,34,51,0.27);
+			color: #927d7d;
+			
+		}
