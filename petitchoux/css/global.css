@@ -466,6 +466,10 @@
 		footer .linefooter {
 			display: none;
 		}
+		
+		.bannertrigger {
+			display: none;
+		}
 }
 
 
