@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+* {
+
+			margin: 0;
+			padding: 0;
+		}
+
+		section#first {
+			width: 100vw;
+			height: 706px;
+			background-image: url(../img/bestartisanbakerycafe.png);
+			top: 81px;
+			position: relative;
+		}
+
+		section#first h1 {
+			font-family: 'PT Serif', serif;
+			font-size: 64px;
+			text-align: center;
+			font-weight: 200;
+			color: white;
+			top: 150px;
+			float: left;
+			position: absolute;
+			margin-left: 22vw;
+
+		}
+
+		section#first h2 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 24px;
+			text-align: center;
+			font-weight: 400;
+			color: white;
+			top: 250px;
+			float: left;
+			position: absolute;
+			margin-left: 25vw;
+			width: 50vw;
+
+		}
+
+		section#first .button1 {
+			margin-left: 37vw;
+			top: 450px;
+			width: 27vw;
+			height: 55px;
+			background-color: #90826C;
+			font-family: 'Raleway', sans-serif;
+			font-size: 24px;
+			color: white;
+			text-align: center;
+			border-radius: 20px;
+			float: left;
+			position: absolute;
+
+		}
+
+
+		section#first .button1 .rightarrow {
+			position: relative;
+			float: right;
+			width: 32px;
+			height: 32px;
+			right: 30px;
+			background-image: url(../img/right.png);
+		}
+
+		section#second {
+			width: 100vw;
+			height: 706px;
+			background-image: url(../img/creampuffs.png);
+		}
+
+		section#second .logo {
+			width: 50vw;
+			height: 531px;
+			background-image: url(../img/petitchoux2.png);
+			float: left;
+			position: absolute;
+			margin-left: 10vw;
+			margin-top: 150px;
+			background-repeat: no-repeat;
+		}
+
+		section#second h2 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 24px;
+			text-align: center;
+			font-weight: 300;
+			color: white;
+			top: 250px;
+			float: left;
+			position: relative;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			margin-left: 50vw; 
+			width: 45vw;
+
+		}
+
+		section#second .learnmorebutton {
+			width: 28vw;
+			height: 55px;
+			border: 4px solid #ffffff;
+			background-color: transparent;
+			font-family: 'Raleway', sans-serif;
+			font-size: 30px;
+			color: white;
+			text-align: center;
+			border-radius: 20px;
+			float: left;
+			position: relative;
+			margin-left: 56vw;
+			margin-top: 300px;
+		}
+
+		section#third {
+			width: 100vw;
+			height: 760px;
+			background-color: violet;
+		}
+
+		section#third .leftpicture {
+			width: 50%;
+			height: 50%;
+			position: relative;
+			float: left;
+			background-image: url(../img/image2.png);
+		}
+
+		section#third .rightcaption {
+			width: 50%;
+			height: 50%;
+			position: relative;
+			float: left;
+			background-color: #90826C;
+		}
+
+		section#third .rightcaption h1 {
+			font-family: 'PT Serif', serif;
+			font-size: 40px;
+			text-align: center;
+			font-weight: 300;
+			color: white;
+			top: 110px;
+			float: left;
+			margin-left: 15vw;
+			position: relative;
+
+		}
+
+		section#third .rightcaption h2 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+			text-align: center;
+			font-weight: 400;
+			color: white;
+			top: 135px;
+			float: left;
+			margin-left: 8vw;
+			position: relative;
+			line-height: 30px;
+			width: 35vw;
+		}
+
+		section#third .leftcaption {
+			width: 50%;
+			height: 50%;
+			position: relative;
+			float: left;
+			background-color: #ffffff;
+		}
+
+		section#third .leftcaption h1 {
+			font-family: 'PT Serif', serif;
+			font-size: 40px;
+			text-align: center;
+			font-weight: 300;
+			color: #90826C;
+			top: 90px;
+			float: left;
+			margin-left: 9vw;
+			position: relative;
+			width: 35vw;
+		}
+
+		section#third .leftcaption h2 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+			text-align: center;
+			font-weight: 400;
+			color: #90826C;
+			top: 115px;
+			float: left;
+			margin-left: 7vw;
+			position: relative;
+			line-height: 30px;
+			width: 35vw;
+		}
+
+		section#third .rightpicture {
+			width: 50%;
+			height: 50%;
+			position: relative;
+			float: left;
+			background-image: url(../img/image3.png);
+		}
+
+		section#fourth {
+			width: 100vw;
+			height: 480px;
+		}
+
+		section#fourth .image4 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image4.png);
+			float: left;
+
+
+		}
+
+		section#fourth .image5 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image5.png);
+			float: left;
+
+
+		}
+
+		section#fourth .image6 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image6.png);
+			float: left;
+
+
+		}
+
+		section#fourth .image7 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image7.png);
+			float: left;
+
+		}
+
+		section#fourth .image8 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image8.png);
+			float: left;
+
+		}
+
+		section#fourth .image9 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image9.png);
+			float: left;
+
+		}
+
+		section#fourth .image10 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image10.png);
+			float: left;
+		}
+
+		section#fourth .image11 {
+			width: 25%;
+			height: 50%;
+			background-image: url(../img/image11.png);
+			float: left;
+
+		}
+
+		section#fifth {
+			width: 100vw;
+			height: 150px;
+			background-color: black;
+		}
+
+		section#fifth .seemorebutton {
+			width: 35vw;
+			height: 45px;
+			border: 4px solid #F0A144;
+			background-color: transparent;
+			font-family: 'Raleway', sans-serif;
+			font-size: 22px;
+			font-weight: 700;
+			color: #F0A144;
+			text-align: center;
+			float: left;
+			position: relative;
+			margin-left: 33vw;
+			margin-top: 40px;
+		}
+
+		section#sixth {
+			width: 100vw;
+			height: 292px;
+			background-color: transparent;
+		}
+
+		section#sixth .grabfood {
+			width: 300px;
+			height: 20%;
+			margin-left: 5vw;
+			float: left;
+			background-image: url(../img/grabfood.png);
+			background-repeat: no-repeat;
+			position: relative;
+			margin-top: 100px;
+		}
+
+		section#sixth .shopeefood {
+			width: 300px;
+			height: 32%;
+			float: left;
+			margin-left: 2vw;
+			background-image: url(../img/shopeefood.png);
+			background-repeat: no-repeat;
+			margin-top: 90px
+		}
+
+		section#sixth .travelokaeats {
+			width: 350px;
+			height: 50%;
+			float: left;
+			margin-left: -4vw;
+			margin-top: 50px;
+			background-image: url(../img/travelokaeats.png);
+			background-repeat: no-repeat;
+		}
+
+		section#sixth .gofood {
+			width: 300px;
+			height: 40%;
+			float: left;
+			margin-left: 2vw;
+			margin-top: 90px;
+			background-image: url(../img/gofood.png);
+			background-repeat: no-repeat;
+		}
+
+
+
+@media (max-width: 500px) {
+
+	section#first h1 {
+		font-size: 42px;
+		margin-left: 16vw;
+		width: 70vw;
+		line-height: 40px;
+	}
+
+	section#first h2 {
+		font-size: 18px;
+		width: 70vw;
+		margin-left: 16vw;
+		margin-top: 10px;
+		
+	}
+
+	section#first .button1 {
+		font-size: 20px;
+		width: 44vw;
+		height: 35px;
+		margin-left: 30vw;
+	}
+
+	section#first .button1 .rightarrow {
+		right: 10px;
+		top: -3px;
+	}
+
+	section#second .logo {
+		width: 100vw;
+		margin-left: -3vw;
+		margin-top: 70px;
+	}
+
+	section#second h2 {
+		width: 80vw;
+		font-size: 13px;
+		margin-left: 10vw;
+		margin-top: 290px;
+	}
+
+	section#second .learnmorebutton {
+			width: 48vw;
+			height: 30px;
+			border: 4px solid #ffffff;
+			background-color: transparent;
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+			color: white;
+			text-align: center;
+			border-radius: 20px;
+			float: left;
+			position: relative;
+			margin-left: 26vw;
+			margin-top: 265px;
+
+		}
+
+	section#third {
+			width: 100vw;
+			height: 1520px;
+			background-color: violet;
+		}		
+
+	section#third .leftpicture {
+		width: 100%;
+		height: 25%;
+	}
+
+	section#third .rightcaption {
+		width: 100%;
+		height: 25%;
+	}
+
+	section#third .rightcaption h1 {
+		width: 73vw;
+	}
+
+	section#third .rightcaption h2 {
+		width: 85vw;
+	}
+
+	section#third .leftcaption {
+		width: 100%;
+		height: 25%;
+	}
+
+	section#third .leftcaption h1 {
+		width: 82vw;
+		margin-top: -20px;
+	}
+
+	section#third .leftcaption h2 {
+		width: 85vw;
+	}
+
+	section#third .rightpicture {
+		width: 100%;
+		height: 25%;
+	}
+
+	section#fourth {
+			width: 100vw;
+			height: 960px;
+		}
+
+		section#fourth .image4 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image4.png);
+			float: left;
+
+
+		}
+
+		section#fourth .image5 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image5.png);
+			float: left;
+
+
+		}
+
+		section#fourth .image6 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image6.png);
+			float: left;
+
+
+		}
+
+		section#fourth .image7 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image7.png);
+			float: left;
+
+		}
+
+		section#fourth .image8 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image8.png);
+			float: left;
+
+		}
+
+		section#fourth .image9 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image9.png);
+			float: left;
+
+		}
+
+		section#fourth .image10 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image10.png);
+			float: left;
+		}
+
+		section#fourth .image11 {
+			width: 50%;
+			height: 25%;
+			background-image: url(../img/image11.png);
+			float: left;
+
+		}
+
+		section#fifth .seemorebutton {
+			width: 80vw;
+			height: 45px;
+			border: 4px solid #F0A144;
+			background-color: transparent;
+			font-family: 'Raleway', sans-serif;
+			font-size: 22px;
+			font-weight: 700;
+			color: #F0A144;
+			text-align: center;
+			float: left;
+			position: relative;
+			margin-left: 10vw;
+			margin-top: 40px;
+		}
+
+		section#sixth {
+			width: 100vw;
+			height: 292px;
+			background-color: transparent;
+		}
+
+		section#sixth .grabfood {
+			transform: scale(0.6);
+			width: 350px;
+			margin-left: 0;
+			height: 100px;
+			float: left;
+			margin-top: 0;
+			background-image: url(../img/grabfood.png);
+			background-repeat: no-repeat;
+			position: relative;
+			margin-top: 50px;
+		}
+
+		section#sixth .shopeefood {
+			transform: scale(0.6);
+			width: 350px;
+			height: 110px;
+			float: left;
+			background-image: url(../img/shopeefood.png);
+			background-repeat: no-repeat;
+			margin-top: 0px;
+			margin-left: 0px;
+			position: relative;
+		}
+
+		section#sixth .travelokaeats {
+			transform: scale(0.6);
+			width: 350px;
+			height: 150px;
+			margin-top: -250px;
+			margin-left: 35vw;
+			float: left;
+			background-image: url(../img/travelokaeats.png);
+			background-repeat: no-repeat;
+		}
+
+		section#sixth .gofood {
+			margin-top: -100px;
+			margin-left: 39vw;
+			transform: scale(0.6);
+			width: 350px;
+			height: 100px;
+			float: left;
+			background-image: url(../img/gofood.png);
+			background-repeat: no-repeat;
+		}
+
+
+
+
+
+}

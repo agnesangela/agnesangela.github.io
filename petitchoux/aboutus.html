@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PETIT CHOUX</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
+
+
+</head>
+
+<script type="text/javascript">
+		
+		function changeColor(obj) {
+			if (obj.style.color == 'white') {
+				obj.style.color = 'lightgray';
+			} else {
+				obj.style.color = 'white';
+			}
+		}
+
+		function changeColor1(obj) {
+			if (obj.style.color == 'black') {
+				obj.style.color = 'chocolate';
+			} else {
+				obj.style.color = 'black';
+			}
+		}
+
+		function changeColor2(obj) {
+			if (obj.style.color == 'chocolate') {
+				obj.style.color = 'orange';
+			} else {
+				obj.style.color = 'chocolate';
+			}
+		}
+
+		function scaleUp(obj, size) {
+			obj.style.fontSize = size;
+		}
+
+		function scaleUp1(obj, size) {
+			obj.style.fontSize = size;
+		}
+
+		function showSix() {
+			var element = document.getElementById('six');
+
+			if (element.style.display == 'none') {
+				element.style.display = 'block';
+			} else {
+				element.style.display = 'none';
+			}
+		}
+
+	</script>
+
+	<div class="responsivemenu">
+			<div class="exitbutton" onclick="document.querySelector('.responsivemenu').style.right='-100vw'"></div>
+			<div class="textmenu">
+			<div class="responsivemenu1"><a href="index.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">Home</a></div>
+			<div class="responsivemenu1"><a href="aboutus.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">About Us</a></div>
+			<div class="responsivemenu1"><a href="menu.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">Menu</a></div>
+			<div class="responsivemenu1"><a href="contact.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">Contact</a></div>
+			</div>
+			<div class="socmed"></div>
+		</div>
+
+		<div class="bannertrigger" onmouseover="showSix()" onmouseout="showSix()"></div>
+
+			<div id="six" style="display: none">
+				<br><h3>Choux</h3><br>
+				<h3>Croissant</h3><br>
+				<h3>Tarts</h3><br>
+				<div class="line1"></div>
+				<h3 style="color: chocolate;">More</h3>
+			</div>
+
+	<nav>
+		<div class="hamburgermenu" onclick="document.querySelector('.responsivemenu').style.right='0'"></div>
+
+		<div class="socmed_container">
+			<div class="facebook"></div>
+			<div class="whatsapp"></div>
+			<div class="instagram"></div>
+		</div>
+		<div class="menus_container"> 
+			<div class="banner"><a href="index.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">Home</a></div>
+			<div class="banner2"><a href="aboutus.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">About Us</a></div>
+		</div>
+		<div class="logo_container"></div>
+		<div class="menus_container2">
+			<div class="banner"><a href="index.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">Menu</a></div>
+
+			<div class="banner2"><a href="aboutus.html" style="text-decoration-line: none; color: black;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">Contact</a></div>
+		</div>
+		<div class="icon_container">
+			<div class="tripadvisor"></div>
+			<div class="search"></div>
+		</div>
+	</nav>
+<body>
+	<section id="first">
+		<h1>Hello, We are Petit Choux. Established 2012 – Bali</h1>
+	</section>
+
+	<section id="second">
+		<h2>French Bakery is part of our heritage and was introduced to us in our early years.</h2>
+	</section>
+
+	<section id="third">
+		<h2 style="width: 70vw;">Since 2012, Petit Choux has been striving to find the best flour to make out finest breads, the Artisan Bucheron and the Baguette Tradition every night, ready for you to enjoy in the morning. Our wild yeast is an 8-year long secret, fermenting naturally somewhere in Bali. Started by two Parisian cousins in 2012.</h2>
+		<br>
+		<h3 style="width: 70vw;">Based in Bali’s most-visited spot, Petit Choux serves a tempting range of high-quality handmade French pastries, cakes, artisan bread and savouries in a relaxed, friendly environment. The bakery is ideal for breakfast and lunch gatherings, and we strive to serve a healthy and delicious menu whatever the time of day.</h3>
+	</section>
+
+	<section id="fourth">
+		<h1>Now We're Here With 7 Branches Across Indonesia</h1>
+		<div class="seebranchbutton" style="padding-top: 15px;"><a href="aboutus.html" style="text-decoration-line: none; color: #F0A144;" onmouseover="changeColor1(this)" onmouseout="changeColor1(this)">
+		 SEE OUR FULL BRANCH</div>
+	</section>
+
+	<section id="fifth">
+		<div class="image17"></div>
+		<div class="image13"></div>
+		<div class="image14"></div>
+		<div class="image15"></div>
+		<div class="image18"></div>
+		<div class="image16"></div>
+	</section>
+
+	<section id="seventh">
+		<div class="logo_container2"></div>
+		<div class="tripadvisorcontainer"></div>
+		<div class="tripadvisorcontainer2"></div>
+		<h3 style="width: 470px;">Petit Choux is a French Bakery-Cafe started by two Parisian cousins in 2012. Based in Bali’s most-visited spots, Monsieur Spoon serves a tempting range of high-quality handmade French pastries, cakes, artisan bread and savouries in a relaxed, friendly environment.​</h3>
+	</section>
+
+</body>
+<footer>
+	<h3>2021© Raffles Design Institute. All rights reserved.</h3>
+	<h4 style="margin-top: -13px;">ORDER NOW</h4>
+	<h5 style="margin-top: -18px;">CALL US</h5>
+	<div class="linefooter"></div>
+</footer>
+</html>

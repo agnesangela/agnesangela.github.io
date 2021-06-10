@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+* {
+
+			margin: 0;
+			padding: 0;
+		}
+
+		nav {
+			width: 100vw;
+			height: 81px;
+			background-color: white;
+			position: fixed;
+			z-index: 5;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+		}
+
+		
+
+		nav .socmed_container {
+			width: 20%;
+			height: 100%;
+			background-color: white;
+			float: left;
+
+		}
+
+		nav .socmed_container .facebook {
+			height: 43px;
+			width: 43px;
+			background-image: url(../img/facebooklogo.png);
+			float: left;
+			margin-top: 19px;
+			margin-left: 5vw;
+
+		}
+
+		nav .menus_container .hamburgermenu {
+			width: 35px;
+			height: 35px;
+			display: none;
+		}
+
+		nav .socmed_container .whatsapp {
+			height: 43px;
+			width: 43px;
+			background-image: url(../img/whatsapplogo.png);
+			float: left;
+			margin-top: 15px;
+			object-position: center;
+			margin-left: 1vw;
+
+		}
+
+		nav .socmed_container .instagram {
+			height: 40px;
+			width: 40px;
+			background-image: url(../img/instagramlogo.png);
+			float: left;
+			margin-top: 21px;
+			margin-left: 1.5vw;
+		}
+
+		nav .menus_container {
+			width: 20%;
+			height: 100%;
+			background-color: transparent;
+			float: left;
+		}
+
+		nav .menus_container .banner {
+			font-family: 'PT Serif', serif;
+			font-size: 22px;
+			margin-top: 25px;
+			margin-left: 1vw;
+			float: left;
+			color: black;
+		}
+
+		nav .menus_container .banner2 {
+			font-family: 'PT Serif', serif;
+			font-size: 22px;
+			float: left;
+			color: black;
+			margin-top: 25px;
+			margin-left: 4.5vw;
+		}
+
+		nav .logo_container {
+			width: 20vw;
+			height: 80px;
+			background-color: transparent;
+			float: left;
+			background-image: url(../img/petitchoux.png);
+			background-repeat: no-repeat;
+			margin-top: 7px;
+			margin-left: 3vw;
+			position: relative;
+			z-index: 6;
+		}
+
+		nav .menus_container2 {
+			width: 20%;
+			height: 100%;
+			background-color: transparent;
+			float: left;
+		}
+
+		nav .hamburgermenu {
+			width: 35px;
+			height: 35px;
+			display: none;
+		}
+
+
+		.responsivemenu {
+			width: 170px;
+			height: 100vh;
+			background-color: #9F927E;
+			float: right;
+			right: -100vw;
+			z-index: 100;
+			position: fixed;
+			display: block;
+
+		}
+
+		.responsivemenu .exitbutton {
+			background-color: transparent;
+			border-radius: 100%;
+			transform: scale(1.2);
+			margin-left: 20px;
+			margin-top: 20px;
+			width: 30px;
+			height: 30px;
+			background-image: url(../img/exit.png);
+
+		}
+
+		.responsivemenu .socmed {
+			width: 119px;
+			height: 39px;
+			background-color: transparent;
+			background-image: url(../img/socmed.png);
+			margin-left: 23px;
+
+
+		}
+
+		.responsivemenu .textmenu {
+			margin-left: 23px;
+			margin-top: 35px;
+			width: 120px;
+			height: 220px;
+			background-color: transparent;
+		}
+
+		.responsivemenu .textmenu .responsivemenu1 {
+			font-family: 'PT Serif', serif;
+			font-size: 20px;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav .menus_container2 .banner {
+			font-family: 'PT Serif', serif;
+			font-size: 22px;
+			margin-top: 25px;
+			margin-left: 2vw;
+			float: left;
+			color: black;
+			position: fixed;
+		}
+
+		nav .menus_container2 .banner2 {
+			font-family: 'PT Serif', serif;
+			font-size: 22px;
+			float: left;
+			color: black;
+			margin-top: 25px;
+			margin-left: 11vw;
+			position: fixed;
+		}
+
+		nav .icon_container {
+			width: 19%;
+			height: 100%;
+			background-color: transparent;
+			float: left;
+			margin-left: 80vw;
+			position: fixed;
+		}
+
+		nav .icon_container .tripadvisor {
+			height: 60px;
+			width: 60px;
+			background-image: url(../img/tripadvisor.png);
+			float: left;
+			margin-top: 10px;
+			margin-left: 5vw;
+			background-repeat: no-repeat;
+
+
+		}
+
+		nav .icon_container .search {
+			height: 45px;
+			width: 45px;
+			background-image: url(../img/searchicon.png);
+			float: left;
+			margin-top: 25px;
+			margin-left: 3vw;
+			background-repeat: no-repeat;
+
+		}
+
+		
+		section#seventh {
+			width: 100vw;
+			height: 217px;
+			background-color: transparent;
+		}
+
+		section#seventh .logo_container2 {
+			width: 30%;
+			height: 100%;
+			background-image: url(../img/logo2.png);
+			background-repeat: no-repeat;
+			background-repeat: no-repeat;
+			margin-left: 40px; 
+			margin-top: 40px;
+			float: left;
+		}
+
+		section#seventh .tripadvisorcontainer {
+			width: 15%;
+			height: 100%;
+			background-image: url(../img/tripadvisor2.png);
+			background-repeat: no-repeat;
+			margin-left: 40px; 
+			margin-top: 40px;
+			float: left;
+		}
+
+		section#seventh .tripadvisorcontainer2 {
+			width: 15%;
+			height: 100%;
+			background-image: url(../img/tripadvisor3.png);
+			background-repeat: no-repeat;
+			margin-left: 0px; 
+			margin-top: 40px;
+			float: left;
+		}
+
+		section#seventh h3 {
+			font-family: 'Quicksand', Sans-Serif;
+			font-size: 14px;
+			font-weight: 500px;
+			color: #716E6E;
+			margin-left: -1vw;
+			margin-top: 80px;
+			position: relative;
+			float: left;
+		}
+
+		footer {
+			width: 100vw;
+			height: 80px;
+			background-color: #E2B988;
+		}
+
+		footer h3 {
+			font-family: 'Quicksand', Sans-Serif;
+			font-size: 14px;
+			font-weight: 500px;
+			color: white;
+			margin-left: -60vw;
+			float: left;
+			position: relative;
+			margin-top: 30px;
+
+		}
+
+		footer h4 {
+			font-family: 'Quicksand', Sans-Serif;
+			font-size: 14px;
+			font-weight: 500px;
+			color: white;
+			margin-left: 80vw;
+			float: left;
+			position: relative;
+		}
+
+		footer h5 {
+			font-family: 'Quicksand', Sans-Serif;
+			font-size: 14px;
+			font-weight: 500px;
+			color: white;
+			margin-left: 90vw;
+			float: left;
+		}
+
+		footer .linefooter {
+			float: left;
+			width: 32px;
+			height: 0px;
+			margin-left: 87vw;
+			margin-top: -10px;
+
+			border: 1px solid #FFFFFF;
+			transform: rotate(90deg);
+		}
+
+		#six {
+			background-color: white;
+			width: 100px;
+			height: 150px;
+			margin-top: 80px;
+			position: fixed;
+			float: left;
+			margin-left: 64vw;
+			z-index: 9;
+		}
+
+		#six h3 {
+			font-family: 'Quicksand', Sans-Serif;
+			font-size: 12px;
+			margin-left: 1vw;
+			margin-top: 0px;
+
+		}
+
+		#six .line1 {
+			width: 90%;
+			height: 1px;
+			background-color: black;
+			margin-left: 5px;
+			margin-top: 5px;
+			float: left;
+			top: -10px;
+			position: relative;
+		}
+
+		.bannertrigger {
+			background-color: transparent;
+			width: 70px;
+			height: 20px; 
+			margin-top: 40px;
+			margin-left: 65vw;
+			float: left;
+			position: fixed;
+			z-index: 6;
+		}
+
+
+@media (max-width: 500px) {
+
+	
+		nav .menus_container {
+			display: none;
+		}
+
+		nav .hamburgermenu {
+			display: block;
+			background-color: transparent;
+			float: right;
+			margin-right: 7vw;
+			margin-top: 25px;
+			background-image: url(../img/hamburger.png);
+
+		}
+
+		.responsivemenu {}
+
+		nav .menus_container2 {
+			display: none;
+		}
+
+		nav .logo_container {
+			width: 40vw;
+			margin-left: 5vw;
+		}
+
+		nav .socmed_container {
+			display: none;
+		}
+
+		nav .icon_container {
+			width: 35vw;
+			height: 80px;
+			margin-left: 50vw; 
+			background-color: transparent;
+		}
+
+		nav .icon_container .search {
+			width: 10vw;
+			height: 80px;
+			margin-left: 7vw; 
+		}
+
+		nav .icon_container .tripadvisor {
+			width: 13vw;
+			height: 81px;
+			
+		}
+
+		section#seventh .logo_container2 {
+			transform: scale(0.5);
+			width: 350px;
+			height: 100%;
+			background-image: url(../img/logo2.png);
+			background-repeat: no-repeat;
+			background-repeat: no-repeat;
+			margin-left: -50px; 
+			margin-top: 40px;
+			float: left;
+		}
+
+		section#seventh .tripadvisorcontainer {
+			transform: scale(0.5);
+			width: 140px;
+			height: 100%;
+			background-image: url(../img/tripadvisor2.png);
+			background-repeat: no-repeat;
+			margin-left: -45px; 
+			margin-top: 40px;
+			float: left;
+		}
+
+		section#seventh .tripadvisorcontainer2 {
+			transform: scale(0.5);
+			width: 140px;
+			height: 100%;
+			background-image: url(../img/tripadvisor3.png);
+			background-repeat: no-repeat;
+			margin-left: -50px; 
+			margin-top: 40px;
+			float: left;
+		}
+
+		section#seventh h3 {
+			display: none;
+		}
+
+		footer h3 {
+			font-size: 14px;
+			font-weight: 500px;
+			margin-top: -10px;
+			color: white;
+			margin-left: 5vw;
+			float: left;
+			position: relative;
+
+		}
+
+		footer h4 {
+			display: none;
+		}
+
+		footer h5 {
+			display: none;
+		}
+
+		footer .linefooter {
+			display: none;
+		}
+}
+
+
+
+
+
